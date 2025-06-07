@@ -1,24 +1,24 @@
-# Responsive Web Design Projects
+# freeCodeCamp – Responsive Web Design Projects
 
-This repo contains my projects from the freeCodeCamp Responsive Web Design course. I used only HTML and CSS, focusing on layout, styling, responsiveness, and accessibility — no JavaScript at all.
+This repo includes all the projects I built while working through the freeCodeCamp Responsive Web Design course. Everything here is done with just HTML and CSS — no frameworks, no JavaScript.
 
-## 📁 Folder Overview
+## 📁 Certification Projects
 
-- `0. Certification Projects/`  
-  These are the five final projects submitted for the course:
-  1. Tribute Page  
-  2. Survey Form  
-  3. Product Landing Page  
-  4. Technical Documentation Page  
-  5. **Portfolio Website** → A simple, responsive personal site made with pure HTML and CSS. No frameworks, no JS. I used this one to really practice CSS animations and responsive design.
+Found in `0. Certification Projects/`:
+1. Survey Form  
+2. Technical Documentation  
+3. Product Landing Page  
+4. Tribute Page  
+5. **Personal Portfolio Webpage** – A responsive site built completely from scratch. I focused on layout, animations, and making it mobile-friendly using only CSS. This was my favorite one to work on.
 
-- `1–15.`  
-  These are practice projects from throughout the course, covering topics like:
-  - Flexbox & Grid layouts  
-  - Forms  
-  - Animations & transforms  
-  - CSS colors, typography, pseudo-selectors, accessibility, and more
+## 🔧 Other Practice Projects
+
+The folders `1.` to `15.` contain exercises from the course covering topics like:
+- Flexbox and Grid
+- Pseudo-selectors
+- CSS transforms and animations
+- Forms, accessibility, and responsive layout techniques
 
 ## Notes
 
-I followed along with freeCodeCamp’s responsive web design path and submitted the required projects, including the portfolio. This repo is more about practicing and experimenting than anything polished.
+These projects helped me get through the full curriculum and apply what I learned step-by-step.
