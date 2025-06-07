@@ -18,7 +18,3 @@ The folders `1.` to `15.` contain exercises from the course covering topics like
 - Pseudo-selectors
 - CSS transforms and animations
 - Forms, accessibility, and responsive layout techniques
-
-## Notes
-
-These projects helped me get through the full curriculum and apply what I learned step-by-step.
