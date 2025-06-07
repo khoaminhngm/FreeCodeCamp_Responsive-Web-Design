@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> <!-- Specify the character encoding for the HTML document -->
+  <title>Nutrition Label</title> <!-- Define the title of the document -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"> <!-- Link to Google Fonts for the 'Open Sans' font family -->
+  <link href="./styles.css" rel="stylesheet"> <!-- Link to the external stylesheet -->
+</head>
+
+<body>
+  <div class="label"> <!-- Create a container with class 'label' -->
+    <header>
+      <h1 class="bold">Nutrition Facts</h1> <!-- Add a header with bold text -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p>8 servings per container</p> <!-- Add a paragraph with servings information -->
+      <p class="bold">Serving size <span>2/3 cup (55g)</span></p> <!-- Add a bold paragraph with serving size information -->
+    </header>
+    <div class="divider large"></div> <!-- Add a large divider line -->
+    <div class="calories-info">
+      <div class="left-container">
+        <h2 class="bold small-text">Amount per serving</h2> <!-- Add a sub-header for the amount per serving -->
+        <p>Calories</p> <!-- Add a paragraph for calories -->
+      </div>
+      <span>230</span> <!-- Add a span with the calorie count -->
+    </div>
+    <div class="divider medium"></div> <!-- Add a medium divider line -->
+    <div class="daily-value small-text">
+      <p class="bold right no-divider">% Daily Value *</p> <!-- Add a bold paragraph for daily value percentage -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold">10%</span></p> <!-- Add a paragraph for total fat -->
+      <p class="indent no-divider">Saturated Fat 1g <span class="bold">5%</span></p> <!-- Add an indented paragraph for saturated fat -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p> <!-- Add an indented paragraph for trans fat with italic text -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p> <!-- Add a paragraph for cholesterol -->
+      <p><span><span class="bold">Sodium</span> 160mg</span> <span class="bold">7%</span></p> <!-- Add a paragraph for sodium -->
+      <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="bold">13%</span></p> <!-- Add a paragraph for total carbohydrate -->
+      <p class="indent no-divider">Dietary Fiber 4g</p> <!-- Add an indented paragraph for dietary fiber -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p class="indent no-divider">Total Sugars 12g</p> <!-- Add an indented paragraph for total sugars -->
+      <div class="divider double-indent"></div> <!-- Add a double-indented divider line -->
+      <p class="double-indent no-divider">Includes 10g Added Sugars <span class="bold">20%</span></p> <!-- Add a double-indented paragraph for added sugars -->
+      <div class="divider"></div> <!-- Add a divider line -->
+      <p class="no-divider"><span><span class="bold">Protein</span> 3g</span></p> <!-- Add a paragraph for protein -->
+      <div class="divider large"></div> <!-- Add a large divider line -->
+      <p>Vitamin D 2mcg <span>10%</span></p> <!-- Add a paragraph for vitamin D -->
+      <p>Calcium 260mg <span>20%</span></p> <!-- Add a paragraph for calcium -->
+      <p>Iron 8mg <span>45%</span></p> <!-- Add a paragraph for iron -->
+      <p class="no-divider">Potassium 235mg <span>6%</span></p> <!-- Add a paragraph for potassium -->
+    </div>
+    <div class="divider medium"></div> <!-- Add a medium divider line -->
+    <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+      diet. 2,000 calories a day is used for general nutrition advice.</p> <!-- Add a note paragraph explaining the daily value percentage -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: burlywood;
+    padding: 20px 10px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+  h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.5rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  #survey-form {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #EAAF1F;
+  }
+  
+  .selects, .radios, .checkboxes, .comments, .submit-button {
+    margin-top: 20px;
+  }
+  
+  
+  
+  .text_numbers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+  
+  .checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .submit-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  hr {
+    border-style: groove;
+    border-color: black;
+    margin-top: 20px;
+  }

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; /* Ensure that the padding and border are included in the element's total width and height */
+}
+
+html {
+  font-size: 16px; /* Set the base font size for the entire document */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Set the font family for the body text */
+}
+
+.label {
+  border: 2px solid black; /* Add a 2px solid black border to the label */
+  width: 270px; /* Set the width of the label */
+  margin: 20px auto; /* Center the label with a 20px margin on top and bottom */
+  padding: 0 7px; /* Add horizontal padding inside the label */
+}
+
+header h1 {
+  text-align: center; /* Center-align the header text */
+  margin: -4px 0; /* Set the margin around the header */
+  letter-spacing: 0.15px; /* Adjust the spacing between letters */
+}
+
+p {
+  margin: 0; /* Remove default margin from paragraphs */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute space between child elements */
+}
+
+.divider {
+  border-bottom: 1px solid #888989; /* Add a gray border at the bottom */
+  margin: 2px 0; /* Set the margin around the divider */
+}
+
+.bold {
+  font-weight: 800; /* Make the text bold */
+}
+
+.large {
+  height: 10px; /* Set the height */
+}
+
+.large, .medium {
+  background-color: black; /* Set the background color to black */
+  border: 0; /* Remove border */
+}
+
+.medium {
+  height: 5px; /* Set the height */
+}
+
+.small-text {
+  font-size: 0.85rem; /* Set the font size */
+}
+
+.calories-info {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute space between child elements */
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.calories-info h2 {
+  margin: 0; /* Remove default margin */
+}
+
+.left-container p {
+  margin: -5px -2px; /* Set the margin around paragraphs */
+  font-size: 2em; /* Set the font size */
+  font-weight: 700; /* Make the text bold */
+}
+
+.calories-info span {
+  margin: -7px -2px; /* Set the margin around the span */
+  font-size: 2.4em; /* Set the font size */
+  font-weight: 700; /* Make the text bold */
+}
+
+.right {
+  justify-content: flex-end; /* Align items to the end */
+}
+
+.indent {
+  margin-left: 1em; /* Indent by 1em */
+}
+
+.double-indent {
+  margin-left: 2em; /* Indent by 2em */
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989; /* Add a gray border at the bottom of paragraphs except those with the class no-divider */
+}
+
+.note {
+  font-size: 0.6rem; /* Set the font size */
+  margin: 5px 0; /* Set the margin */
+  padding: 0 8px; /* Add horizontal padding */
+  text-indent: -8px; /* Indent the first line by -8px */
+}

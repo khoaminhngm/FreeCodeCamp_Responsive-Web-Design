@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Your opinion matters! Please take some time to fill out this survey.</p>
+
+<form id="survey-form">
+<div class="text_numbers">
+  <h2>Enter your personal information</h2>
+  <label id="name-label" for="name">Name: 
+    <input id="name" type="text" placeholder="Enter Your Name" required />
+  </label>
+
+  <label id="email-label" for="email">Email: 
+    <input id="email" type="email" placeholder="Enter Your Email" required />
+  </label>
+<!-- check for instruction 6-->
+
+  <label id="number-label" for="number">Number: 
+    <input id="number" type="number" pattern:="[0-9]" min="1" max="9" placeholder="Enter a Number" required />
+  </label>
+</div>
+
+<hr>
+
+<!-- don't understand 8 & 9 & 10, recheck -->
+
+<div class="selects">
+  <h2>Select an Option from the Dropdown</h2>
+  <select id="dropdown">
+    <option value="">Select an option</option>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select>
+</div>
+
+<hr>
+
+<div class="radios">
+  <h2>Please select one option</h2>
+  <label for="radio1">
+    <input id="radio1" type="radio" name="radio-buttons" value="radio1" checked/> Radio 1
+  </label>
+
+  <label for="radio2"> 
+      <input id="radio2" type="radio" name="radio-buttons" value="radio2" /> Radio 2
+  </label>
+</div>
+
+<hr>
+
+<div class="checkboxes">
+  <h2>Check as many boxes as you'd like</h2>
+  <label for="checkbox1">
+    <input id="checkbox1" type="checkbox" value="checkbox1" /> Checkbox 1
+  </label>
+
+  <label for="checkbox2">
+    <input id="checkbox2" type="checkbox" value="checkbox2" /> Checkbox 2
+  </label>
+
+  <label for="checkbox3">
+    <input id="checkbox3" type="checkbox" value="checkbox3" /> Checkbox 3
+  </label>
+</div>
+
+<hr>
+
+<div class="comments">
+  <h2>Any additional comments?</h2><h3>(I would recommend being silent, i'm a lazy reader)</h3>
+  <label for="comment">
+    <textarea id="comment" placeholder="Additional Comments"></textarea> 
+  </label>
+</div>
+
+<div class="submit-button">
+  <button id="submit" type="submit">Submit</button>
+</div>
+</form>
+</body>  
+</html>

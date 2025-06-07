@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MentorMagnet</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body> 
+    <header id="header">
+        <!-- The src must be a valid url starting with http -->
+        <img id="header-img" src="logo.png" alt="MentorMagnet Logo">
+        <!-- #nav-bar should always be on top of the viewport -->
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Our_Mentors">Our Mentors</a>
+            <a class="nav-link" href="#Our_Mission">Our Mission</a>
+            <a class="nav-link" href="#Become_a_Mentor">Become a Mentor</a>
+            <a class="nav-link" href="#Sign_up">Sign up</a>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Hero -->
+        <img src="hero_background.jpg" class="bg-img">
+        <div id="Find_your_Mentor">
+        <div class="hero">
+            <!-- BLURRED Photo of Thoma and Thu as background image in CSS -->
+            <h1 class="hero-title">
+                The <span class="title-highlights">Magnet</span> attracting <span class="title-highlights">Aspriring Minds</span> towards <span class="title-highlights">Inspiring Mentors</span>
+            </h1>
+            <!-- Search Bar -->
+            <div class="searchbar-container">
+                <div class="searchbar">
+                <input list="subject-search" class="subject" placeholder="Choose your subject">
+                <datalist id="subject-search">
+                    <option value="Mathematics"></option>
+                    <option value="Biology"></option>
+                    <option value="Chemistry"></option>
+                    <option value="Computer Science"></option>
+                    <option value="Guitar"></option>
+                    <option value="UX-UI Design"></option>
+                </datalist>
+                <input list="location-search" class="location" placeholder="Choose your location">
+                <datalist id="location-search">
+                    <option value="District 1"></option>
+                    <option value="District 2"></option>
+                    <option value="District 3"></option>
+                    <option value="District 4"></option>
+                    <option value="District 5"></option>
+                    <option value="District 6"></option>
+                    <option value="District 7"></option>
+                    <option value="District 8"></option>
+                    <option value="District 9"></option>
+                    <option value="District 10"></option>
+                    <option value="District Binh Thanh"></option>
+                    <option value="District Tan Binh"></option>
+                </datalist>
+                </div>
+                <button class="searchbar-button">Search</button>
+            </div>
+        </div>
+        </div>
+
+    <!-- Our Mentors Section -->
+        <div id="Our_Mentors">
+            <p class="mentor-number">000009 Mentors ready for you</p>
+            <div class="mentor-profiles">
+                <div class="mentor-profile1">
+                    <img src="heedong_profile.png">
+                </div>
+                <div class="mentor-profile2">
+                    <img src="lindsey_profile.png">
+                </div>
+                <div class="mentor-profile3">
+                    <img src="huy_profile.png">
+                </div>
+            </div>
+        </div>
+
+        <hr class="mentor-about">
+            <!-- Trolling Section -->
+        <div id="Our_Mission">
+            <div class="about_us_text">
+                <h2 class="about_us_header">Our Mission</h2>
+                <p class="about_us_paragraph">
+                    Finding affordable, relatable mentorship as a student is incredibly tough. Traditional tutoring centers can charge up to 1 million VND per session, and private professional teachers typically ask for 750k per session—prices that many students simply can't afford. But even more than the cost, there’s the disconnect: these tutors often don’t fully grasp the unique pressures and challenges that come with studying your specific curriculum, your subjects, or the mental stress you face.
+                </p>
+                <p class="about_us_paragraph">
+                    That’s where we come in. We’re building a community where students help students. Here, you can connect with mentors who are studying the same subjects, following the same curriculum, and who genuinely understand what you’re going through—because they’re in the same boat. And the best part? Sessions can be as affordable as 350k VND.
+                </p>
+                <p class="about_us_paragraph">
+                    We believe that everyone has something valuable to share, and everyone should have the chance to benefit from it. Whether you’re looking for guidance or have knowledge to offer, we’re here to help you connect and grow—without breaking the bank.
+                </p>
+            </div>
+            <div class="video-container"> 
+            <video id="video" controls poster="click_here.jpg" preload="metadata" class="rick_roll">
+                <source src="rick_roll.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+
+        <hr class="about-become">
+
+        <!--Become a Mentor Section-->
+        <div id="Become_a_Mentor">
+            <img src="become_mentor.png" class="become-mentor-img">
+            <div class="become-mentor-right">
+                    <p class="become-mentor-text1">
+                        Teach what you <b>know</b>
+                    </p>
+                    <p class="become-mentor-text2">
+                        Teach what you <b>love</b>
+                    </p>
+                    <p class="become-mentor-text3">
+                        & Earn <b>money!</b>
+                    </p>
+                <buton class="become-mentor-button">
+                    Become a Mentor!
+                </buton>
+            </div>
+        </div>
+
+        <hr class="become-sign-up">
+
+        <!--Forms Section-->
+
+        <div id="Sign_up">
+
+            <img src="sign_up.png" class="sign-up-img">
+
+            <div class="sign-up-left">
+                <p class="sign-up-title">
+                    Create your Account
+                </p>
+
+                <div class="social-icons">
+                    
+                    <!-- Gotta find out how to add color -->
+                    <!--
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-apple"></i>
+                    -->
+
+                    <!-- For the time being, i'll screenshot :)-->
+
+                    <img src="google-icon.png" class="icon-google">
+                    <img src="fb-icon.png" class="icon-fb">
+                    <img src="apple-icon.png" class="icon-apple">
+                </div>
+
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="name">
+                        <fieldset class="first-name-input">
+                            <legend>First Name</legend>
+                            <label for="first-name">
+                                <input type="text" id="first-name" name="first-name" placeholder="Anna">
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="last-name-input">
+                            <legend>Last Name</legend>
+                            <label for="last-name">
+                                <input type="text" id="last-name" name="last-name" placeholder="Nguyen">
+                            </label>
+                        </fieldset>
+                    </div>
+
+                    <fieldset class="mail-input">
+                        <legend>Email</legend>
+                        <label for="email">
+                            <input type="email" id="email" name="email" placeholder="your_email@gmail.com">
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="password-input">
+                        <legend>Password</legend>
+                        <label for="first-name">
+                            <input type="password" id="password" name="password" placeholder="Nothing corny please">
+                        </label>
+                    </fieldset>
+
+                    <input type="submit" id="submit" method="post" value="Create Account">
+                </form>
+                <p class="log-in">Already have an account? <a class="log-in-link">Log in</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

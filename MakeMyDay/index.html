@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route Instructions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Your Route</h1>
+    <p>Simplified public transport directions</p>
+  </header>
+  <main>
+    <div class="route-container">
+      <h2>Directions</h2>
+      <ul class="instruction-list" id="instruction-list">
+        <li class="instruction-step" data-step="1">
+          <span class="step-number">1</span>
+          Take Bus 12 from Central Station to Main Street (5 stops).
+        </li>
+        <li class="instruction-step" data-step="2">
+          <span class="step-number">2</span>
+          Walk 500m to Oak Avenue Station.
+        </li>
+        <li class="instruction-step" data-step="3">
+          <span class="step-number">3</span>
+          Board Train 7 heading north. Exit at Elm Park Station.
+        </li>
+        <li class="instruction-step" data-step="4">
+          <span class="step-number">4</span>
+          Walk to your destination (200m).
+        </li>
+      </ul>
+    </div>
+    <button class="recalculate-btn" id="recalculate-btn">Recalculate Route</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
